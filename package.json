@@ -1,0 +1,24 @@
+{
+  "name": "Relic",
+  "version": "1.0.0",
+  "description": "Relic is a straightforward NodeJS/MongoDB framework for writing USSD enabled applications, managing users & basic API access to the data using JWTs.",
+  "author": "Jo du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "register": "node register.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "express": "^4.15.3",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.6",
+    "mustache-express": "^1.2.5",
+    "request": "^2.81.0",
+    "xml": "^1.0.1"
+  }
+}
